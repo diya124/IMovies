@@ -119,7 +119,7 @@ React.js, JavaScript, TypeScript, Node.js, Express.js, MongoDB, REST APIs, authe
 
 ## Author
 
-**Brettlee Soni**
+**Diya Soni**
 
 ## License
 
