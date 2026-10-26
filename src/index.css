@@ -1,0 +1,134 @@
+
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #f5f5f5;
+  background: #0a0a0b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #0a0a0b;
+  --surface: #141416;
+  --surface-hover: #1d1d21;
+  --red: #e50924;
+  --red-hover: #bd071d;
+  --gold: #c9a45c;
+  --muted: #a1a1aa;
+  --border: #29292e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+  color: #f5f5f5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: background 180ms ease, border-color 180ms ease,
+    transform 180ms ease;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: white;
+  background: var(--red);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.surface-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.primary-button {
+  background: var(--red);
+  color: white;
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  padding: 11px 18px;
+  font-weight: 700;
+}
+
+.primary-button:hover {
+  background: var(--red-hover);
+}
+
+.secondary-button {
+  background: var(--surface);
+  color: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 11px 18px;
+}
+
+.secondary-button:hover {
+  background: var(--surface-hover);
+  border-color: var(--gold);
+}
+
+.muted-text {
+  color: var(--muted);
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.movie-card {
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: transform 200ms ease, border-color 200ms ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
