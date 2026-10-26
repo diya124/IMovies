@@ -124,3 +124,25 @@ React.js, JavaScript, TypeScript, Node.js, Express.js, MongoDB, REST APIs, authe
 ## License
 
 Add a license if you intend to distribute the project under specific reuse terms.
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Now Showing Movies
+![Movies Page](screenshots/movies.png)
+
+### Upcoming Movies
+![Upcoming Movies](screenshots/upcoming.png)
+
+### Movie Details and Showtimes
+![Movie Details](screenshots/movie-details.png)
+
+### Seat Selection
+![Seat Selection](screenshots/seat-selection.png)
+
+### Booking and Payment Summary
+![Payment Summary](screenshots/payment.png)
+
+### Cinema Experience
+![Cinema Experience](screenshots/experience.png)
