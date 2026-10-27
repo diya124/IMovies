@@ -15,8 +15,8 @@ export async function seedDatabase(force: boolean = false) {
       { title: 'Quantum Horizon' },
       {
         $set: {
-          posterUrl: '/images/poster_quantum_horizon_1792597454046.jpg',
-          backdropUrl: '/images/hero_movie_sci_fi_1792597453242.jpg',
+          posterUrl: '/assets/aistudio/images/poster_quantum_horizon_1792597454046.jpg',
+          backdropUrl: '/assets/aistudio/images/hero_movie_sci_fi_1792597453242.jpg',
         },
       }
     );
@@ -25,8 +25,8 @@ export async function seedDatabase(force: boolean = false) {
       { title: 'Shadow Cipher' },
       {
         $set: {
-          posterUrl: '/images/poster_shadow_cipher_1792597503562.jpg',
-          backdropUrl: '/images/poster_shadow_cipher_1792597503562.jpg',
+          posterUrl: '/assets/aistudio/images/poster_shadow_cipher_1792597503562.jpg',
+          backdropUrl: '/assets/aistudio/images/poster_shadow_cipher_1792597503562.jpg',
         },
       }
     );
@@ -35,8 +35,8 @@ export async function seedDatabase(force: boolean = false) {
       { title: 'Golden Dynasty' },
       {
         $set: {
-          posterUrl: '/images/poster_golden_dynasty_1792597456181.jpg',
-          backdropUrl: '/images/poster_golden_dynasty_1792597456181.jpg',
+          posterUrl: '/assets/aistudio/images/poster_golden_dynasty_1792597456181.jpg',
+          backdropUrl: '/assets/aistudio/images/poster_golden_dynasty_1792597456181.jpg',
         },
       }
     );
@@ -45,8 +45,8 @@ export async function seedDatabase(force: boolean = false) {
       { title: 'Neon Velocity' },
       {
         $set: {
-          posterUrl: '/images/poster_neon_velocity_1792597478973.jpg',
-          backdropUrl: '/images/poster_neon_velocity_1792597478973.jpg',
+          posterUrl: '/assets/aistudio/images/poster_neon_velocity_1792597478973.jpg',
+          backdropUrl: '/assets/aistudio/images/poster_neon_velocity_1792597478973.jpg',
         },
       }
     );
@@ -55,8 +55,8 @@ export async function seedDatabase(force: boolean = false) {
       { title: 'Chronicles of Aethelgard' },
       {
         $set: {
-          posterUrl: '/images/poster_golden_dynasty_1792597456181.jpg',
-          backdropUrl: '/images/hero_movie_sci_fi_1792597453242.jpg',
+          posterUrl: '/assets/aistudio/images/poster_golden_dynasty_1792597456181.jpg',
+          backdropUrl: '/assets/aistudio/images/hero_movie_sci_fi_1792597453242.jpg',
         },
       }
     );
@@ -65,8 +65,8 @@ export async function seedDatabase(force: boolean = false) {
       { title: 'Solaris Eclipse' },
       {
         $set: {
-          posterUrl: '/images/poster_quantum_horizon_1792597454046.jpg',
-          backdropUrl: '/images/hero_movie_sci_fi_1792597453242.jpg',
+          posterUrl: '/assets/aistudio/images/poster_quantum_horizon_1792597454046.jpg',
+          backdropUrl: '/assets/aistudio/images/hero_movie_sci_fi_1792597453242.jpg',
         },
       }
     );
@@ -223,8 +223,8 @@ export async function seedDatabase(force: boolean = false) {
     ageClassification: 'PG-13',
     director: 'Elara Vance',
     cast: ['Kaelen Ryder', 'Eliza Vance', 'David Oyelowo', 'Hannah Gross'],
-    posterUrl: '/src/assets/images/poster_quantum_horizon_1792597454046.jpg',
-    backdropUrl: '/src/assets/images/hero_movie_sci_fi_1792597453242.jpg',
+    posterUrl: '/assets/aistudio/images/poster_quantum_horizon_1792597454046.jpg',
+    backdropUrl: '/assets/aistudio/images/hero_movie_sci_fi_1792597453242.jpg',
     trailerUrl: 'https://www.youtube.com',
     featured: true,
     active: true,
@@ -243,8 +243,8 @@ export async function seedDatabase(force: boolean = false) {
     ageClassification: 'R',
     director: 'Eliza Reed',
     cast: ['Liam Chen', 'Maya Patel', 'Elias Thorne', 'Sarah Vo'],
-    posterUrl: '/src/assets/images/poster_shadow_cipher_1792597503562.jpg',
-    backdropUrl: '/src/assets/images/poster_shadow_cipher_1792597503562.jpg',
+    posterUrl: '/assets/aistudio/images/poster_shadow_cipher_1792597503562.jpg',
+    backdropUrl: '/assets/aistudio/images/poster_shadow_cipher_1792597503562.jpg',
     trailerUrl: 'https://www.youtube.com',
     featured: true,
     active: true,
@@ -263,8 +263,8 @@ export async function seedDatabase(force: boolean = false) {
     ageClassification: 'PG-13',
     director: 'Chen Wei',
     cast: ['Wang Lei', 'Mei Ling', 'Chen Hao', 'Zhang Jie', 'Li Fan'],
-    posterUrl: '/src/assets/images/poster_golden_dynasty_1792597456181.jpg',
-    backdropUrl: '/src/assets/images/poster_golden_dynasty_1792597456181.jpg',
+    posterUrl: '/assets/aistudio/images/poster_golden_dynasty_1792597456181.jpg',
+    backdropUrl: '/assets/aistudio/images/poster_golden_dynasty_1792597456181.jpg',
     trailerUrl: 'https://www.youtube.com',
     featured: false,
     active: true,
@@ -283,8 +283,8 @@ export async function seedDatabase(force: boolean = false) {
     ageClassification: 'PG-13',
     director: 'Kenji Tanaka',
     cast: ['Alex Reed', 'Sarah Chen', 'Kenji Tanaka', 'Marcus Croft'],
-    posterUrl: '/src/assets/images/poster_neon_velocity_1792597478973.jpg',
-    backdropUrl: '/src/assets/images/poster_neon_velocity_1792597478973.jpg',
+    posterUrl: '/assets/aistudio/images/poster_neon_velocity_1792597478973.jpg',
+    backdropUrl: '/assets/aistudio/images/poster_neon_velocity_1792597478973.jpg',
     trailerUrl: 'https://www.youtube.com',
     featured: false,
     active: true,
@@ -303,8 +303,8 @@ export async function seedDatabase(force: boolean = false) {
     ageClassification: 'PG-13',
     director: 'Gareth Holm',
     cast: ['Anya Taylor', 'Rowan Davies', 'Hera Hilmar'],
-    posterUrl: '/src/assets/images/poster_golden_dynasty_1792597456181.jpg',
-    backdropUrl: '/src/assets/images/hero_movie_sci_fi_1792597453242.jpg',
+    posterUrl: '/assets/aistudio/images/poster_golden_dynasty_1792597456181.jpg',
+    backdropUrl: '/assets/aistudio/images/hero_movie_sci_fi_1792597453242.jpg',
     trailerUrl: 'https://www.youtube.com',
     featured: false,
     active: true,
@@ -323,8 +323,8 @@ export async function seedDatabase(force: boolean = false) {
     ageClassification: 'PG-13',
     director: 'Soren Lind',
     cast: ['Freja Møller', 'Jonas Brandt'],
-    posterUrl: '/src/assets/images/poster_quantum_horizon_1792597454046.jpg',
-    backdropUrl: '/src/assets/images/hero_movie_sci_fi_1792597453242.jpg',
+    posterUrl: '/assets/aistudio/images/poster_quantum_horizon_1792597454046.jpg',
+    backdropUrl: '/assets/aistudio/images/hero_movie_sci_fi_1792597453242.jpg',
     trailerUrl: 'https://www.youtube.com',
     featured: false,
     active: true,
