@@ -9,8 +9,69 @@ import { SeatReservation } from '../models/SeatReservation.js';
 
 export async function seedDatabase(force: boolean = false) {
   const existingMovies = await Movie.countDocuments();
+
   if (existingMovies > 0 && !force) {
-    console.log('Database already contains data. Skipping initial seed.');
+    await Movie.updateOne(
+      { title: 'Quantum Horizon' },
+      {
+        $set: {
+          posterUrl: '/images/poster_quantum_horizon_1792597454046.jpg',
+          backdropUrl: '/images/hero_movie_sci_fi_1792597453242.jpg',
+        },
+      }
+    );
+
+    await Movie.updateOne(
+      { title: 'Shadow Cipher' },
+      {
+        $set: {
+          posterUrl: '/images/poster_shadow_cipher_1792597503562.jpg',
+          backdropUrl: '/images/poster_shadow_cipher_1792597503562.jpg',
+        },
+      }
+    );
+
+    await Movie.updateOne(
+      { title: 'Golden Dynasty' },
+      {
+        $set: {
+          posterUrl: '/images/poster_golden_dynasty_1792597456181.jpg',
+          backdropUrl: '/images/poster_golden_dynasty_1792597456181.jpg',
+        },
+      }
+    );
+
+    await Movie.updateOne(
+      { title: 'Neon Velocity' },
+      {
+        $set: {
+          posterUrl: '/images/poster_neon_velocity_1792597478973.jpg',
+          backdropUrl: '/images/poster_neon_velocity_1792597478973.jpg',
+        },
+      }
+    );
+
+    await Movie.updateOne(
+      { title: 'Chronicles of Aethelgard' },
+      {
+        $set: {
+          posterUrl: '/images/poster_golden_dynasty_1792597456181.jpg',
+          backdropUrl: '/images/hero_movie_sci_fi_1792597453242.jpg',
+        },
+      }
+    );
+
+    await Movie.updateOne(
+      { title: 'Solaris Eclipse' },
+      {
+        $set: {
+          posterUrl: '/images/poster_quantum_horizon_1792597454046.jpg',
+          backdropUrl: '/images/hero_movie_sci_fi_1792597453242.jpg',
+        },
+      }
+    );
+
+    console.log('Updated existing movie image paths.');
     return;
   }
 
